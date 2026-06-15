@@ -20,6 +20,10 @@ def livros():
 def autores():
     return "Lista de autores cadastrados"
 
+@app.route("/contato")
+def contato():
+    return "Página de contato do sistema"
+
 
 
 if __name__ == "__main__":
