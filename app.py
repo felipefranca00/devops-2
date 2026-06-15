@@ -30,7 +30,7 @@ def localizacao():
 
 @app.route("/cadastro-livro")
 def cadastro_livro():
-    return "Formulário de cadastro de livros
+    return "Formulário de cadastro de livros"
 
 
 if __name__ == "__main__":
