@@ -24,6 +24,9 @@ def autores():
 def contato():
     return "Página de contato do sistema"
 
+@app.route("/localização")
+def localizacao():
+    return "Página de localização da fatec"
 
 
 if __name__ == "__main__":
