@@ -22,3 +22,7 @@ jobs:
       - run: pip install pytest
 
       - run: python -m pytest
+
+      - name: Simular Deploy
+
+        run: echo "Deploy realizado com sucesso"
