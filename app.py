@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return {"status": "API online"}
+    return "Sistema de Gestão de Biblioteca"
 
 
 @app.route("/sobre")
