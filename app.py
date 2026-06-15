@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Sistema de Gestão de Biblioteca"
+    return {"status": "API online"}
 
 
 @app.route("/sobre")
@@ -31,6 +31,7 @@ def localizacao():
 @app.route("/cadastro-livro")
 def cadastro_livro():
     return "Formulário de cadastro de livros"
+
 
 if __name__ == "__main__":
     app.run(debug=True)
